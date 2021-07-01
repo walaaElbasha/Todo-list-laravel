@@ -1,8 +1,8 @@
 <h3>
-to run the project use <br>
-php artisan serve <br>
+to run the project use 
+php artisan serve 
 
-to run unit testing use <br>
+to run unit testing use 
 .\vendor\bin\phpunit
 </h3>
 
