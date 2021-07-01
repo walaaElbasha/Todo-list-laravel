@@ -58,8 +58,8 @@
                         @endif
                         @else
                         <li>
-                            <span  style="fontsize:25px ;margin-right:50px">
-                               Hi, {{ Auth::user()->name }}
+                            <span  style="fontsize:20px">
+                                {{ Auth::user()->name }}
                             </span>
 
                                 <a  href="{{ route('logout') }}" onclick="event.preventDefault();

@@ -58,9 +58,9 @@
                         @endif
                         @else
                         <li>
-                            <span  style="fontsize:25px ;margin-right:50px">
-                               Hi, {{ Auth::user()->name }}
-                            </span>
+                            <a  href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                {{ Auth::user()->name }}
+                            </a>
 
                                 <a  href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">

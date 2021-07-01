@@ -58,7 +58,7 @@
                         @endif
                         @else
                         <li>
-                            <span  style="fontsize:25px ;margin-right:50px">
+                            <span  style="fontsize:25px ;margin-right:90px">
                                Hi, {{ Auth::user()->name }}
                             </span>
 
