@@ -8,4 +8,4 @@ to run unit testing use
 
 **note <br>
 I faced an error when I used the library "Tests\TestCase" in UserTaskTest class for unit testing, 
-it was "TaskFactory has already been declared" which is a misleading error and i couldn't find the appriopriate solution for it all over my search on the internet
+It was "TaskFactory has already been declared" which is a misleading error and I couldn't find the appriopriate solution for it all over my search on the internet
